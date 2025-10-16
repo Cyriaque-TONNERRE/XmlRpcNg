@@ -1,5 +1,7 @@
 # XML-RPC-ng
 
+[![NuGet Version](https://img.shields.io/nuget/v/XmlRpcNg.svg?style=flat&logo=nuget)](https://www.nuget.org/packages/XmlRpcNg/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/XmlRpcNg.svg?style=flat&logo=nuget)](https://www.nuget.org/packages/XmlRpcNg/)
 [![.NET](https://img.shields.io/badge/.NET-9.0-purple.svg)](https://dotnet.microsoft.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Build Status](https://img.shields.io/badge/Build-Passing-green.svg)]()
