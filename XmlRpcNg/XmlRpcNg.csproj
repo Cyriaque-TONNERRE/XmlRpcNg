@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>XmlRpcNg</RootNamespace>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
+
+        <!-- NuGet Package Metadata -->
+        <PackageId>XmlRpcNg</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageDescription>A modern C# client for the XML-RPC protocol targeting .NET 9.0</PackageDescription>
+        <PackageTags>xml-rpc;xmlrpc;rpc;protocol;client;server;dotnet;net9;csharp</PackageTags>
+        <PackageProjectUrl>https://github.com/Cyriaque-TONNERRE/XmlRpcNg</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Cyriaque-TONNERRE/XmlRpcNg</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Authors>Cyriaque Tonnerre</Authors>
+        <Copyright>Copyright 2025 © Cyriaque Tonnerre</Copyright>
+        <LicenseFile>LICENSE</LicenseFile>
+        <RequireLicenseAcceptance>false</RequireLicenseAcceptance>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.10" />
+      <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.10" />
+    </ItemGroup>
+
+</Project>
